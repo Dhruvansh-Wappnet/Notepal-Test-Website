@@ -1,0 +1,885 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* <--------------Navigation Menu--------------------------------> */
+nav {
+    /* width: 1463px; */
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px; */
+    margin: 37px 132px 67px 133px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    color: #1E293B;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    /* justify-content: space-between; */
+}
+
+.home {
+    color: #3FC4FF;
+}
+
+.sign_in {
+    padding-top: 10px;
+}
+
+.sign_up {
+    color: white;
+    width: 124px;
+    height: 46px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #3FC4FF;
+    border: none;
+}
+
+li {
+    /* justify-content: space-between; */
+    margin: 0 20px;
+}
+/* <--------------Navigation Menu--------------------------------> */
+
+/* <--------------Hero Banner--------------------------------> */
+.banner {
+    margin: 0px 133px;
+    margin-bottom: 166px;
+    /* width: 1463px; */
+    height: 656px;
+    /* border: 1px solid;
+    border-color: #3FC4FF; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.container1 {
+    margin-top: 83px;
+    margin-bottom: 81px;
+    /* border: 1px solid;
+    border-color: red; */
+    width: 718px;
+    height: 492px;
+}
+
+#first {
+    margin-right: 36px;
+    /* border: 1px solid;
+    border-color: red; */
+    width: 682px;
+    height: 333px;
+}
+
+.container2 {
+    /* border: 1px solid; */
+    /* border-color: red; */
+    width: 661px;
+    height: 656px;
+}
+
+.content {
+    margin: 0px;
+    color: #1E293B;
+    font-family: Lato;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 111px;
+    /* 138.75% */
+}
+
+#round {
+    /* padding-right: 50px; */
+    margin: -25px -25px;
+    width: 362px;
+    height: 145px;
+    position: absolute;
+}
+
+#courses {
+    color: #3FC4FF;
+    position: relative;
+}
+
+#notepal {
+    color: #946FC6;
+}
+
+#second {
+    margin-top: 11px;
+    /* border: 1px solid; */
+    /* border-color: red; */
+    width: 648px;
+    height: 60px;
+}
+
+#btn2 {
+    margin-top: 39px;
+    width: 144px;
+    height: 46px;
+    border-style: none;
+    border-radius: 30px;
+    background: #3FC4FF;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+#read-more {
+    margin-left: 23px;
+    width: 96px;
+    height: 30px;
+    color: #1E293B;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 150% */
+}
+
+#read-more img {
+    width: 13px;
+    height: 10px;
+}
+
+#second-content {
+    margin: 0px;
+    color: #737373;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 150% */
+}
+/* <--------------Hero Banner--------------------------------> */
+
+/* <--------------Number--------------------------------> */
+.container {
+    margin: 0px;
+    padding: 0px;
+}
+
+.box {
+    position: relative;
+    margin-top: -1200px;
+    margin-left: 127px;
+    margin-right: 138px;
+    display: flex;
+    /* justify-content: space-between; */
+    width: 1463px;
+    height: 200px;
+    /* border: #1E293B solid 1px; */
+    background-color: #946FC6;
+    border-radius: 15px;
+    padding: 1px;
+}
+
+#rectangle-4 {
+    display: flex;
+    justify-content: start;
+    margin-left: 76px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#rectangle-5,
+#rectangle-6 {
+    display: flex;
+    justify-content: start;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 232px;
+}
+
+.text .number {
+    margin: 27px 0px 0px 39px;
+    width: 117px;
+    height: 30px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    /* 60% */
+}
+
+.text .in-text {
+    margin: 6px 0px 27px 40px;
+    width: 119px;
+    height: 30px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 150% */
+}
+
+.whitebox {
+    width: 120px;
+    height: 120px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    /* margin-top: 40px;
+    margin-bottom: 40px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whitebox img {
+    max-width: 100%;
+    max-height: 100%;
+}
+/* <--------------Number--------------------------------> */
+
+/* <--------------About-us--------------------------------> */
+.About-us {
+    margin: 0px;
+    padding: 1px;
+    /* box-sizing: border-box;
+    overflow: visible; */
+    /* width: 1728px; */
+    height: 1094px;
+    /* border: #1E293B solid 1px; */
+    background: rgba(148, 111, 198, 0.08);
+}
+
+.grid {
+    width: 1463px;
+    /* width: 33.33%; */
+    margin: 0px;
+    padding: 0px;
+    margin-left: 127px;
+    /* margin-right: 133px; */
+    /* box-sizing: border-box; */
+    margin-top: 218px;
+}
+
+.row {
+    max-width: 100%;
+}
+
+.col-6 {
+    width: 550px;
+    height: 350px;
+    /* border: #1E293B solid 1px; */
+}
+
+.col-3 {
+    /* width: 25%; */
+    height: 350px;
+    /* border: #1E293B solid 1px; */
+}
+
+#we-are-best {
+    Width: 550px;
+    Height: 150px;
+    /* margin-left: 133px; */
+    color: #1E293B;
+    font-family: Lato;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 75px;
+    /* 125% */
+}
+
+#best-quality {
+    width: 493px;
+    height: 60px;
+    /* margin-left: 133px; */
+    color: #737373;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 150% */
+}
+
+#btn-3 {
+    /* margin-left: 133px; */
+    color: white;
+    width: 144px;
+    height: 46px;
+    border-style: none;
+    border-radius: 30px;
+    background: #3FC4FF;
+}
+
+.best-teachers {
+    padding: 1px;
+    margin-left: -70px;
+    width: 385px;
+    height: 350px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 1px 10px 4px rgba(30, 41, 59, 0.05);
+}
+
+.certificates {
+    padding: 1px;
+    margin-left: -17px;
+    width: 380px;
+    height: 350px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 1px 10px 4px rgba(30, 41, 59, 0.05);
+}
+
+.best-price {
+    padding: 1px;
+    margin-left: -120px;
+    width: 380px;
+    height: 350px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 1px 10px 4px rgba(30, 41, 59, 0.05);
+}
+
+.creative-thinking {
+    padding: 1px;
+    margin-left: -67px;
+    width: 380px;
+    height: 350px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 1px 10px 4px rgba(30, 41, 59, 0.05);
+}
+
+.best-curriculum {
+    padding: 1px;
+    margin-left: -14px;
+    width: 380px;
+    height: 350px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 1px 10px 4px rgba(30, 41, 59, 0.05);
+}
+
+.about-us-logo {
+    margin-top: 43px;
+    margin-left: 34px;
+    width: 70px;
+    height: 70px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #3FC4FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    margin: 0px;
+    margin-top: 4px;
+    margin-left: 34px;
+    color: #1E293B;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    /* 200% */
+}
+
+.description {
+    margin-top: 1px;
+    margin-left: 35px;
+    Width: 310px;
+    Height: 130px;
+    color: #737373;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+/* <--------------About-us--------------------------------> */
+
+/* <--------------courses-card--------------------------------> */
+#categories {
+    padding: 1px;
+    margin-top: 1000px;
+}
+
+#categories #courses2 {
+    padding-top: 1px;
+    margin: 30px 132px 41px 75px;
+    width: 1521px;
+    height: 609px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    /* border: #1E293B solid 1px; */
+}
+
+
+#courses2 .title {
+    /* width: 787px; */
+    margin: 82px 345px 0px 385px;
+    height: 75px;
+}
+
+.title #title-text {
+    color: #1E293B;
+    font-family: Lato;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 75px;
+    /* 125% */
+}
+
+.title span {
+    color: #946FC6;
+    font-family: Lato;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 75px;
+}
+
+.description-2 {
+    margin: 14px 485px 0px 543px;
+    width: 493px;
+    height: 60px;
+}
+
+.description-2 #description-text {
+    color: #737373;
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 150% */
+}
+
+.courses-category {
+    margin-top: 50px;
+}
+
+.courses-category .box {
+    background-color: white;
+    border-radius: 15px;
+    box-sizing: border-box;
+    width: 215px !important;
+    box-shadow: #00000014;
+    margin: 35px 10px;
+    height: 215px;
+}
+/* <--------------courses-card--------------------------------> */
+
+/* <--------------categories--------------------------------> */
+#different-courses {
+    height: 1535px;
+    padding: 1px;
+    /* margin-top: -136px; */
+    /* border: #1E293B solid 1px; */
+    background: rgba(63, 196, 255, 0.05);
+}
+
+#different-courses .title {
+    margin: 134px 0px 0px 131px;
+    height: 30px;
+}
+
+#different-courses .description-2 {
+    margin: 55px 0px 0px 133px;
+    height: 60px;
+}
+
+#different-courses .description-2 #description-text {
+    text-align: left;
+}
+
+.grid2 {
+    padding: 0px;
+    padding-left: 11px;
+    padding-top: -2px;
+    margin: 69px 133px 0px 133px;
+    /* border: red solid 1px; */
+}
+
+.grid2 .row {
+    height: 520px;
+    /* max-width: 100%; */
+    /* border: #1E293B solid 1px; */
+}
+
+.grid2 .row2 {
+    margin-top: 35px;
+}
+
+.cards {
+    width: 460px;
+    height: 520px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 4px 10px 0px rgba(30, 41, 59, 0.08);
+}
+
+#different-courses h3 {
+    font-family: Lato;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 75px;
+    padding-left: 35px;
+}
+
+#different-courses>p {
+    width: 460px;
+    height: 60px;
+    font-family: var(--lato-font);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 43px;
+    color: #737373;
+    margin-top: 30px;
+}
+
+.btn1 {
+    border-radius: 30px;
+    justify-content: center;
+    width: 100px;
+    height: 46px;
+    /* margin-top: -10px !important; */
+    color: white;
+    background-color: #3FC4FF;
+    border: none;
+}
+
+.circles {
+    width: 36px !important;
+    height: 36px;
+    background-color: #3FC4FF1A;
+    border-radius: 50%;
+    margin-top: 17px;
+}
+
+#card-title {
+    background-color: #3FC4FF1A;
+    color: #3FC4FF;
+    border-radius: 5px;
+    width: 93px;
+    height: 30px;
+    margin-top: 10px;
+    padding-left: 20px !important;
+}
+
+.card-details p {
+    padding-left: 0px !important;
+    width: 394px;
+    text-align: left;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.card-details button {
+    width: 123px;
+    height: 30px;
+    margin-top: 11px;
+}
+
+.card-details h5 {
+    margin-top: 11px;
+}
+
+.card-icons {
+    margin-top: 10px;
+}
+
+.card-icons span {
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #737373;
+    margin-left: 15px;
+}
+/* <--------------categories--------------------------------> */
+
+/* <--------------join-card--------------------------------> */
+.join-card {
+    height: 524px;
+    border: #1E293B 1px solid;
+    display: flex;
+}
+
+.card1 {
+    display: flex;
+    width: 50%;
+    background: #946FC6;
+}
+
+.card1-img {
+    padding-top: 72px;
+    width: 50%;
+}
+
+.card1-text {
+    width: 50%;
+}
+
+.card1-text p {
+    margin: 114px 204px 0px 0px;
+    width: 220px;
+    height: 132px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 66px;
+    /* 110% */
+}
+
+.card1-text .txt {
+    font-weight: 700;
+}
+
+.card1-text .brief {
+    margin-top: 24px;
+    /* margin-left: 44.26px; */
+    width: 368px;
+    height: 60px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 150% */
+}
+
+.card2 {
+    display: flex;
+    width: 50%;
+    background: #3FC4FF;
+}
+
+.card2-text {
+    width: 50%;
+}
+
+.card2-text p {
+    margin: 121px 0px 0px 99px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 66px;
+    /* 110% */
+}
+
+.card2-text .txt {
+    font-weight: 700;
+}
+
+.card2-text .brief {
+    margin-top: 17px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 150% */
+}
+
+.card2-img {
+    padding-top: 70px;
+    padding-left: 4px;
+}
+
+.sign-up {
+    width: 124px;
+    height: 46px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border-style: none;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.btn4 {
+    margin-top: 34px;
+    margin-right: 300px;
+    background: #3FC4FF;
+}
+
+.btn5 {
+    margin-top: 41px;
+    margin-left: 101px;
+    background: #946FC6;
+}
+/* <--------------join-card--------------------------------> */
+
+/* <--------------Testimonials--------------------------------> */
+.testimonials {
+    margin-top: 50px;
+}
+
+.testimonials img {
+    margin-left: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 760px;
+}
+
+.testimonials h3 {
+    margin-left: 130px;
+}
+
+.testimonial-quote-text {
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 55px;
+    text-align-last: center;
+}
+
+.testimonial-role {
+    font-size: 16px;
+    color: #737373;
+}
+
+.testimonial-name {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1E293B;
+}
+
+.testimonial-description {
+    /* text-align-last: center; */
+    margin-left: 50px;
+    width: 455px;
+    height: 60px;
+    font-size: 20px;
+}
+
+.testimonial-data-info {
+    text-align-last: center;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+
+.testimonial-image-container {
+    position: relative;
+    margin: 50px 0px;
+}
+/* <--------------Testimonials--------------------------------> */
+
+/* <--------------Footer--------------------------------> */
+.footers {
+    background: #946FC614;
+}
+
+footer p {
+    text-align: left;
+    text-align: justify;
+    width: inherit;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+}
+
+.social-icons {
+    width: 20px;
+    height: 19px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.eclipse {
+    width: 44px;
+    height: 44px;
+    background-color: #FF000026;
+    border-radius: 50%;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 235px;
+    height: 50px;
+    border: 1px solid grey;
+    border-radius: 5px 0px 0px 5px;
+    margin-top: 10px;
+    background: #FFFFFF;
+}
+
+input::placeholder {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #D0CFE2;
+}
+
+footer button {
+    background-color: #946FC6;
+    color: white;
+    border: none;
+    width: 61px;
+    height: 50px;
+    border-radius: 0px 5px 5px 0px;
+    /* margin-top: 10px; */
+}
+
+hr {
+    color: #1E293B33;
+    border: 1px solid #1E293B33;
+    margin: 0px 133px;
+}
+/* <--------------Footer--------------------------------> */
